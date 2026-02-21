@@ -1,8 +1,8 @@
 const helpObj = {
   "commands": [
     [
-    "'about'",
-    "Background, focus, and engineering goals.",
+      "'about'",
+      "Background, focus, and engineering goals.",
     ],
     [
       "'projects'",

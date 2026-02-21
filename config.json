@@ -40,6 +40,113 @@
       "link": "https://github.com/SohailRaoufi/nest-caching"
     }
   ],
+  "terminalContent": {
+    "whoami": [
+      "Sohail Raoufi",
+      "Computer Science Student | Software Developer | Competitive Programmer",
+      "I build scalable backend systems and solve algorithmic problems.",
+      "Current focus: backend architecture, system design, and performance."
+    ],
+    "about": {
+      "summary": [
+        "I build scalable backend systems and solve complex algorithmic problems.",
+        "Focused on performance, clean architecture, and efficient code.",
+        "I am a Computer Science student focused on backend engineering and",
+        "competitive programming. I enjoy the logic-heavy side of software:",
+        "API design, database modeling, performance tuning, and clean systems.",
+        "Problem solving and DSA shaped how I engineer real backend systems.",
+        "Competitive programming sharpened my debugging, edge-case handling,",
+        "and optimization mindset under constraints."
+      ],
+      "interestsTitle": "Core interests:",
+      "interests": [
+        "Backend architecture",
+        "Distributed systems",
+        "System design",
+        "Performance optimization",
+        "Database design",
+        "Clean, maintainable code"
+      ]
+    },
+    "skills": [
+      {
+        "category": "Programming Languages",
+        "items": [
+          "TypeScript, Python, Go, Rust"
+        ]
+      },
+      {
+        "category": "Backend & APIs",
+        "items": [
+          "Node.js, NestJS, Django, Gin, RESTful API design"
+        ]
+      },
+      {
+        "category": "Frontend",
+        "items": [
+          "React, Next.js"
+        ]
+      },
+      {
+        "category": "Databases",
+        "items": [
+          "PostgreSQL, Oracle, MongoDB, Redis"
+        ]
+      },
+      {
+        "category": "Cloud & DevOps",
+        "items": [
+          "AWS, Docker, CI/CD pipelines"
+        ]
+      },
+      {
+        "category": "Messaging & Storage",
+        "items": [
+          "RabbitMQ, MinIO"
+        ]
+      },
+      {
+        "category": "Tools",
+        "items": [
+          "Git, Gitea, Prisma, MikroORM, Dokploy"
+        ]
+      }
+    ],
+    "awards": {
+      "title": "Awards",
+      "items": [
+        "ICPC World Finalist (2025) - Qualified among top global teams, demonstrating advanced problem-solving and analytical skills.",
+        "ICPC Regional Gold Medalist (2024) - First place in regional competition."
+      ]
+    },
+    "education": {
+      "title": "Education",
+      "degree": "Bachelor's Degree in Computer Science",
+      "focusTitle": "Focused on core CS fundamentals:",
+      "focusItems": [
+        "Data Structures and Algorithms",
+        "Operating Systems",
+        "Database Management Systems",
+        "Computer Networks"
+      ]
+    },
+    "mission": {
+      "statementTitle": "Personal Statement",
+      "statementLines": [
+        "I am continuously improving my backend engineering skills",
+        "and problem-solving ability.",
+        "I value efficiency, scalability, and clean design.",
+        "I am open to collaboration, learning opportunities,",
+        "and challenging technical problems."
+      ],
+      "missionTitle": "Mission",
+      "missionLines": [
+        "Build scalable systems.",
+        "Solve meaningful problems.",
+        "Keep leveling up."
+      ]
+    }
+  },
   "colors": {
     "background": "#0C0623",
     "foreground": "#F8DDE5",

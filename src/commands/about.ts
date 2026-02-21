@@ -2,6 +2,7 @@ import command from "../../config.json" assert { type: "json" };
 
 const createAbout = (): string[] => {
   const about: string[] = [];
+  const aboutContent = command.terminalContent.about;
   const githubUrl = command.social.github.startsWith("http")
     ? command.social.github
     : `https://github.com/${command.social.github}`;
@@ -13,36 +14,14 @@ const createAbout = (): string[] => {
   about.push("<br>");
   about.push(`<span class='command'>${command.aboutGreeting}</span>`);
   about.push("<br>");
-  about.push(
-    "I build scalable backend systems and solve complex algorithmic problems.",
-  );
-  about.push("Focused on performance, clean architecture, and efficient code.");
+  aboutContent.summary.forEach((line) => {
+    about.push(line);
+  });
   about.push("<br>");
-  about.push(
-    "I am a Computer Science student focused on backend engineering and",
-  );
-  about.push(
-    "competitive programming. I enjoy the logic-heavy side of software:",
-  );
-  about.push(
-    "API design, database modeling, performance tuning, and clean systems.",
-  );
-  about.push("<br>");
-  about.push(
-    "Problem solving and DSA shaped how I engineer real backend systems.",
-  );
-  about.push(
-    "Competitive programming sharpened my debugging, edge-case handling,",
-  );
-  about.push("and optimization mindset under constraints.");
-  about.push("<br>");
-  about.push("Core interests:");
-  about.push("- Backend architecture");
-  about.push("- Distributed systems");
-  about.push("- System design");
-  about.push("- Performance optimization");
-  about.push("- Database design");
-  about.push("- Clean, maintainable code");
+  about.push(aboutContent.interestsTitle);
+  aboutContent.interests.forEach((interest) => {
+    about.push(`- ${interest}`);
+  });
   about.push("<br>");
 
   about.push("<br>");
@@ -55,9 +34,7 @@ const createAbout = (): string[] => {
   about.push(
     `<i class='fa-solid fa-envelope'></i> <a target='_blank' href='mailto:${emailAddress}'>${emailAddress}</a>`,
   );
-  about.push(
-    "Run: 'skills', 'projects', 'awards', 'education', 'mission'.",
-  );
+  about.push("Run: 'skills', 'projects', 'awards', 'education', 'mission'.");
 
   about.push("<br>");
   return about;

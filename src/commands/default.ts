@@ -4,10 +4,10 @@ const createDefault = () : string[] => {
     "COMMAND NOT FOUND",
     "Type <span class='command'>'help'</span> to get started.",
     "<br>"
-  ]  
-  
+  ]
+
   const defaultMsg : string[] = [];
-  
+
   defaultMsgArr.forEach((ele) => {
     defaultMsg.push(ele);
   })

@@ -13,10 +13,10 @@ const createBanner = () : string[] => {
         bannerString += ele[i];
       }
     }
-    
+
     let eleToPush = `<pre>${bannerString}</pre>`;
     banner.push(eleToPush);
-  });  
+  });
   banner.push("<br>");
   banner.push(`Welcome to ${command.title}.`);
   banner.push("Type <span class='command'>'help'</span> for a list of all available commands.");

@@ -1,14 +1,16 @@
+import command from "../../config.json" assert { type: "json" };
+
 const createEducation = () : string[] => {
   const education : string[] = [];
+  const educationContent = command.terminalContent.education;
 
   education.push("<br>");
-  education.push("<span class='command'>Education</span>");
-  education.push("Bachelor's Degree in Computer Science");
-  education.push("Focused on core CS fundamentals:");
-  education.push("- Data Structures and Algorithms");
-  education.push("- Operating Systems");
-  education.push("- Database Management Systems");
-  education.push("- Computer Networks");
+  education.push(`<span class='command'>${educationContent.title}</span>`);
+  education.push(educationContent.degree);
+  education.push(educationContent.focusTitle);
+  educationContent.focusItems.forEach((item) => {
+    education.push(`- ${item}`);
+  });
   education.push("<br>");
 
   return education;

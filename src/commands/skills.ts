@@ -1,28 +1,17 @@
+import command from "../../config.json" assert { type: "json" };
+
 const createSkills = () : string[] => {
   const skills : string[] = [];
+  const sections = command.terminalContent.skills;
 
   skills.push("<br>");
-  skills.push("<span class='command'>Programming Languages</span>");
-  skills.push("- TypeScript, Python, Go, Rust");
-  skills.push("<br>");
-  skills.push("<span class='command'>Backend & APIs</span>");
-  skills.push("- Node.js, NestJS, Django, Gin, RESTful API design");
-  skills.push("<br>");
-  skills.push("<span class='command'>Frontend</span>");
-  skills.push("- React, Next.js");
-  skills.push("<br>");
-  skills.push("<span class='command'>Databases</span>");
-  skills.push("- PostgreSQL, Oracle, MongoDB, Redis");
-  skills.push("<br>");
-  skills.push("<span class='command'>Cloud & DevOps</span>");
-  skills.push("- AWS, Docker, CI/CD pipelines");
-  skills.push("<br>");
-  skills.push("<span class='command'>Messaging & Storage</span>");
-  skills.push("- RabbitMQ, MinIO");
-  skills.push("<br>");
-  skills.push("<span class='command'>Tools</span>");
-  skills.push("- Git, Gitea, Prisma, MikroORM, Dokploy");
-  skills.push("<br>");
+  sections.forEach((section) => {
+    skills.push(`<span class='command'>${section.category}</span>`);
+    section.items.forEach((item) => {
+      skills.push(`- ${item}`);
+    });
+    skills.push("<br>");
+  });
 
   return skills;
 }
