@@ -1,0 +1,66 @@
+{
+  "ascii": [
+    "███████╗ ██████╗ ██╗  ██╗ █████╗ ██╗██╗     ",
+    "██╔════╝██╔═══██╗██║  ██║██╔══██╗██║██║     ",
+    "███████╗██║   ██║███████║███████║██║██║     ",
+    "╚════██║██║   ██║██╔══██║██╔══██║██║██║     ",
+    "███████║╚██████╔╝██║  ██║██║  ██║██║███████╗",
+    "╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚══════╝"
+  ],
+  "title": "Sohail Terminal",
+  "username": "sohail",
+  "hostname": "raoufi.dev",
+  "password": "Back.end.com",
+  "repoLink": "https://github.com/SohailRaoufi",
+  "social": {
+    "email": "raoufi.dev@proton.me",
+    "github": "https://github.com/SohailRaoufi",
+    "linkedin": "https://www.linkedin.com/in/sohailraoufi/"
+  },
+  "aboutGreeting": "Sohail Raoufi | Computer Science Student | Software Developer | Competitive Programmer",
+  "projects": [
+    {
+      "name": "Jobs.af",
+      "description": "A full-featured job platform connecting job seekers and employers, featuring freelancer profiles, intelligent job matching, application tracking, integrated AI-powered recommendations, and secure payment & billing systems.",
+      "link": "https://jobs.af"
+    },
+    {
+      "name": "Driver2B",
+      "description": "A learner-instructor platform that enables users to book driving lessons seamlessly, with secure scheduling and a reliable payment system.",
+      "link": "https://driver2b.ca"
+    },
+    {
+      "name": "Patient Management System",
+      "description": "Built a full-stack web application using Next.js and REST APIs to manage patient records, appointments, and clinical workflows efficiently.",
+      "link": "https://dr-hassas-pms.vercel.app"
+    },
+    {
+      "name": "Nest Caching",
+      "description": "A lightweight caching system for NestJS built on Redis, designed to enhance application performance by providing efficient caching solutions for data retrieval and storage.",
+      "link": "https://github.com/SohailRaoufi/nest-caching"
+    }
+  ],
+  "colors": {
+    "background": "#0C0623",
+    "foreground": "#F8DDE5",
+    "banner": "#FF9951",
+    "border": {
+      "visible": true,
+      "color": "#FFADE2"
+    },
+    "prompt": {
+      "default": "#A5A7A7",
+      "user": "#FE6BC9",
+      "host": "#70FDFF",
+      "input": "#FF7685"
+    },
+    "link": {
+      "text": "#B6AAEE",
+      "highlightColor": "#FFADE2",
+      "highlightText": "#0C0623"
+    },
+    "commands": {
+      "textColor": "#FD9BDB"
+    }
+  }
+}
