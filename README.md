@@ -1,4 +1,4 @@
-# Terminal Portfolio
+# Portfolio v2.0
 Minimal terminal-style portfolio built with Vite + TypeScript.
 
 ## Run
