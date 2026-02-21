@@ -148,26 +148,26 @@
     }
   },
   "colors": {
-    "background": "#0C0623",
-    "foreground": "#F8DDE5",
-    "banner": "#FF9951",
+    "background": "#111315",
+    "foreground": "#F4F1EA",
+    "banner": "#2DD4BF",
     "border": {
       "visible": true,
-      "color": "#FFADE2"
+      "color": "#5EEAD4"
     },
     "prompt": {
-      "default": "#A5A7A7",
-      "user": "#FE6BC9",
-      "host": "#70FDFF",
-      "input": "#FF7685"
+      "default": "#9CA3AF",
+      "user": "#F97316",
+      "host": "#2DD4BF",
+      "input": "#FB7185"
     },
     "link": {
-      "text": "#B6AAEE",
-      "highlightColor": "#FFADE2",
-      "highlightText": "#0C0623"
+      "text": "#67E8F9",
+      "highlightColor": "#FB7185",
+      "highlightText": "#111315"
     },
     "commands": {
-      "textColor": "#FD9BDB"
+      "textColor": "#22D3EE"
     }
   }
 }
